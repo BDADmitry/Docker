@@ -3,8 +3,8 @@ name: Build and Push docker image
 on: [push]
 
 env:
-  DOCKER_FILE: "docker3.2.1/Dockerfile"
-  REPO_NAME: "deman27/ubuntu-apache"
+  DOCKER_FILE: "Dockerfile"
+  REPO_NAME: "ubuntu-apache"
   DOCKER_USERNAME: "deman27"
 
 jobs:
