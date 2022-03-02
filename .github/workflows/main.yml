@@ -4,7 +4,7 @@ on: [push]
 
 env:
   DOCKER_FILE: "Dockerfile"
-  REPO_NAME: "BDADmitry"
+  REPO_NAME: "deman27/ubuntu-apache"
   DOCKER_USERNAME: "deman27"
 
 jobs:
