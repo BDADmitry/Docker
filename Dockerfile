@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
-
+ARG PASSWORD=defaultValue
+ENV env_var_name=${PASSWORD}
 LABEL maintainer="deman271@gmail.com"
 
 COPY . .
