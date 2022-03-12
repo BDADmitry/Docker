@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+ARG PASSWORD
+
 LABEL maintainer="deman271@gmail.com"
 
 COPY . .
